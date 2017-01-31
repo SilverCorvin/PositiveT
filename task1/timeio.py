@@ -1,6 +1,5 @@
 import re
 import sys
-from pprint import pprint
 
 from exceptions import ValidateError
 
