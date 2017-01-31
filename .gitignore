@@ -3,3 +3,4 @@ __pycache__
 *.docx*
 .venv
 .env
+.flake8
