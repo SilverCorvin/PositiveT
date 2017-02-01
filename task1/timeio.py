@@ -5,15 +5,15 @@ Examples:
     $ python timeio.py 10m
     $ python timeio.py 12
     $ python timeio.py s
-
-Args:
-    timestring (str): Timestring like parameter
 """
 
 import re
 import sys
 
 from exceptions import ValidateError
+
+__author__ = 'Ivan Povalyaev'
+__version__ = 0.1
 
 
 def get_validated_timedict(string):
